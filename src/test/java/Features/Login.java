@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 public class Login {
 	WebDriver driver;
-	@Test(enabled=false)
+	@Test
 	public void validateLogin()
 	{
 		System.setProperty("webdriver.chrome.driver","C:\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
